@@ -9,18 +9,17 @@ import { Winwin } from "./Components/Page/Winwin";
 import { Header } from "./Components/Page/Header/Header";
 import { Features } from "./Components/Page/Features";
 import Start from "./Components/Page/Start";
-import { Buy } from "./Components/Page/Buy";
 
 function App() {
   return (
-    <div className="max-w-[1920px] px-2 font-bold">
-      <Header/>
+    <div className="max-w-[1920px] px-2 font-bold bg-slate-900">
+      <Header />
       <Home />
       <Manage />
       <Crypto />
       <Start />
       <Features />
-      <Buy/>
+
       <Partner />
       <Winwin />
       <Footer />

@@ -4,9 +4,7 @@ const Start = () => {
   return (
     <section className="mt-[100px]">
       <div className="bg-getBg bg-no-repeat bg-center w-[100%]  h-[388px] flex flex-col items-center justify-center gap-5 p-5">
-        <div className="hanover text-3xl text-white">
-          Start 7-day trial on a PRO plan
-        </div>
+        <div className="hanover text-3xl text-white">Let's start using it</div>
         <div className="poppins text-[#8E8F98] ">
           A lifetime Free plan is available.
         </div>

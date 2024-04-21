@@ -8,7 +8,7 @@ import Arbi from "../../Icon/ArbitrageIcon";
 
 export const Features = () => {
   return (
-    <section className="max-w-[1920px] p-10 poppins">
+    <section className="container mx-auto p-10 poppins text-white">
       <div className="flex flex-col items-center text-center gap-4 ">
         <h2 className="hanover text-[40px] font-bold leading-[64px]">
           Features
@@ -20,11 +20,11 @@ export const Features = () => {
         </p>
       </div>
 
-      <div className="xl:grid items-center grid-cols-2 border rounded-3xl mt-10 ">
+      <div className="xl:grid items-center grid-cols-2  mt-10 ">
         <div className="flex">
-          <div className="md:flex item-center gap-5 p-10">
+          <div className="md:flex item-center bg-slate-800 gap-5 p-10">
             <div className="w-[70%] ">
-              <h2 className="hanover text-[32px] font-bold leading-[48px] ">
+              <h2 className="hanover text-[32px] text-white font-bold leading-[48px] ">
                 Smart Trading
               </h2>
               <p className="poppins text-lg font-medium leading-[28px] text-[#8E8F98] ">
@@ -33,17 +33,17 @@ export const Features = () => {
                 cryptocurrency trading accounts at once.
               </p>
 
-              <div className="text-lg font-semibold text-primary-100 mt-10">
+              <div className="text-lg text-white font-semibold text-primary-100 mt-10">
                 Learn more
               </div>
             </div>
             <div className="mt-10">
-              <DCAIcon/>
+              <DCAIcon />
             </div>
           </div>
         </div>
-        <div className="flex-1 bg-[#F2F4FB]">
-          <div className="md:flex items-center gap-5 p-14">
+        <div className="flex ">
+          <div className="md:flex items-center  gap-5 p-10">
             <div className="w-[70%]">
               <h2 className="hanover text-[32px] font-bold leading-[48px] ">
                 Pairs Trading
@@ -59,11 +59,11 @@ export const Features = () => {
               </div>
             </div>
             <div>
-              <PariIcon/>
+              <PariIcon />
             </div>
           </div>
         </div>
-        <div className="flex-1 bg-[#F2F4FB]">
+        <div className="flex-1 ">
           <div className="md:flex items-center gap-5 p-14">
             <div className="w-[70%]">
               <h2 className="hanover text-[32px] font-bold leading-[48px] ">
@@ -85,7 +85,7 @@ export const Features = () => {
           </div>
         </div>
 
-        <div className="flex-1">
+        <div className="flex-1 bg-slate-800">
           <div className="md:flex items-center gap-5 p-14">
             <div className="w-[70%]">
               <h2 className="hanover text-[32px] font-bold leading-[48px] ">
@@ -102,12 +102,12 @@ export const Features = () => {
               </div>
             </div>
             <div>
-              <CryptoIcon/>
+              <CryptoIcon />
             </div>
           </div>
         </div>
 
-        <div className="flex-1   xl:rounded-br-3xl p-10">
+        <div className="flex-1 bg-slate-800    p-10">
           <div className="md:flex items-center gap-5 ]">
             <div className="w-[70%]">
               <h2 className="hanover text-[32px] font-bold leading-[48px] ">
@@ -124,11 +124,11 @@ export const Features = () => {
               </div>
             </div>
             <div>
-              <MultipleIcon/>
+              <MultipleIcon />
             </div>
           </div>
         </div>
-        <div className="flex-1 bg-[#F2F4FB]  xl:rounded-br-3xl p-10">
+        <div className="flex-1  xl:rounded-br-3xl p-10">
           <div className="md:flex items-center gap-5 ]">
             <div className="w-[70%]">
               <h2 className="hanover text-[32px] font-bold leading-[48px] ">
@@ -145,7 +145,7 @@ export const Features = () => {
               </div>
             </div>
             <div>
-              <Arbi/>
+              <Arbi />
             </div>
           </div>
         </div>

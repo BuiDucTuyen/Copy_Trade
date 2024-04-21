@@ -11,7 +11,7 @@ import BingX from "../../Icon/BingX";
 const Manage = () => {
   return (
     <section>
-      <div className="h-auto bg-[#456BF1] mt-9 p-10 flex flex-col rounded-xl items-center justify-center gap-10 xl:flex-row xl:items-start">
+      <div className="h-auto bg-slate-800 mt-9 p-10 flex flex-col rounded-xl items-center justify-center gap-10 xl:flex-row xl:items-start">
         <div className="w-1/3 flex justify-center">
           <Traders />
         </div>
@@ -23,12 +23,12 @@ const Manage = () => {
         </div>
       </div>
 
-      <div className="h-auto mt-[100px] p-10 flex flex-col gap-10 items-center justify-center xl:flex-row xl:items-start">
+      <div className="h-auto mt-[100px] container mx-auto text-white p-10 flex flex-col gap-10 items-center justify-center xl:flex-row xl:items-start">
         <div className="w-1/2 flex flex-col gap-5 justify-center py-10">
           <p className="hanover text-3xl ">
             Manage all crypto exchange accounts from one place
           </p>
-          <p className="poppins text-lg">
+          <p className="poppins text-[#8E8F98] text-lg">
             Trade all accounts simultaneously (applies to any single exchange
             per trade)
           </p>
@@ -46,8 +46,6 @@ const Manage = () => {
           </div>
         </div>
       </div>
-
-      
     </section>
   );
 };

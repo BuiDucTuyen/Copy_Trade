@@ -6,20 +6,18 @@ const Home = () => {
     <section className="px-10 flex flex-col justify-center items-center">
       <div
         className="2xl:bg-homeBg bg-home_1Bg flex flex-col bg-no-repeat 2xl:bg-left-bottom
-          w-full max-w-[1816px] h-[600px] mt-9 relative rounded-3xl p-5 font-bold"
-      >
+          w-full max-w-[1816px] h-[600px] mt-9 relative rounded-3xl p-5 font-bold">
         <div className="flex flex-col max-w-[790px] gap-3 p-8">
           <div className="hanover text-4xl text-white max-w-[700px] font-bold">
-            Automate any crypto strategy
+            Enter the gateway of Blockchain Gaming
           </div>
           <div className="poppins text-[#8E8F98] max-w-[709px] text-[18px]">
-            Develop a fully automated crypto trading bot, copy trade the
-            greatest crypto traders with a proven track record or trade yourself
-            using the user-friendly advance terminal.
+            Visually and spatially connecting games in a seamless metaverse
+            exerience
           </div>
           <div className="pt-2">
             <button className="bg-blue-500 w-[200px] h-[50px] rounded-3xl poppins text-white">
-              Get started
+              EXPLORE IGO
             </button>
           </div>
         </div>
